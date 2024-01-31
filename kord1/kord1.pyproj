@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>63cd2e53-581f-400c-a81f-834dd68fa09e</ProjectGuid>
+    <ProjectGuid>4154a0f5-ac11-4799-85e2-48c84aad5db9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>kordused.py</StartupFile>
+    <StartupFile>kord1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>kordused</Name>
-    <RootNamespace>kordused</RootNamespace>
+    <Name>kord1</Name>
+    <RootNamespace>kord1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\kordused.py">
-      <Link>kordused.py</Link>
+    <Compile Include="..\..\mp\kord1.py">
+      <Link>kord1.py</Link>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
